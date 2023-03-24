@@ -11,7 +11,7 @@ export async function middleware(req: NextRequest) {
   }
 
   const session = await getIronSession(req, res, {
-    cookieName: "frenstr",
+    cookieName: "nostrfortunecookie",
     password: sessionPassword,
   });
   // @ts-ignore

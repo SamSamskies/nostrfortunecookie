@@ -94,7 +94,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>frenstr</title>
+        <title>Nostr Fortune Cookie</title>
         <meta
           name="description"
           content="Nostr fortune cookie message generator."
