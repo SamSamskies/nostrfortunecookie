@@ -1,3 +1,7 @@
+# Nostr Fortune Cookie
+
+Nostr Fortune Cookie is a simple web app that generates a random fortune cookie message for any Nostr user.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
