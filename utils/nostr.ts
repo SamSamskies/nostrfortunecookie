@@ -111,7 +111,7 @@ export const publishNoost = async (event: Event) => {
 };
 
 export const getExistingFortuneCookieEvent = async (pubkey: string) => {
-  const fortuneCookieEventsUrl = `${window.location.origin}/api/users/${process.env.NEXT_PUBLIC_NOSTR_FORTUNE_COOKIE_PUBLIC_KEY}/events?limit=100`;
+  const fortuneCookieEventsUrl = `${window.location.origin}/api/users/${process.env.NEXT_PUBLIC_NOSTR_FORTUNE_COOKIE_PUBLIC_KEY}/events?limit=${process.env.NEXT_PUBLIC_EXISTING_FORTUNE_COOKIE_EVENTS_LIMIT}`;
   const fortuneCookieEvents: Event[] = await fetch(fortuneCookieEventsUrl).then(
     (res) => res.json()
   );
