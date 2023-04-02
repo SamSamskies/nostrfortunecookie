@@ -7,7 +7,7 @@ const openai = new OpenAIApi(configuration);
 
 export const createUserFortune = async (pubkey: string, content: string) => {
   const res = await openai.createChatCompletion({
-    model: "gpt-4",
+    model: "gpt-3.5-turbo",
     messages: [{ role: "user", content }],
     user: pubkey,
   });
