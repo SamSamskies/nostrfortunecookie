@@ -20,6 +20,7 @@ export default function Document() {
           <p
             id="nostr-zap-target"
             data-npub="npub1f948ng6s3spk9wv990tuyh4dl0uujt6jq9uduanzt3yy653e6f6s77uvzg"
+            title="Click to zap me :)"
           >
             ⚡️
           </p>
