@@ -116,10 +116,15 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #A0AEC0;
 }
 
 footer p {
   margin-left: 16px;
   font-size: 36px;
   cursor: pointer;
+  padding: 8px 0;
 }
