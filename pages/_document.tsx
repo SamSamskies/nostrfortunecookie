@@ -27,7 +27,7 @@ export default function Document() {
         </footer>
         <script
           async
-          src="https://cdn.jsdelivr.net/npm/nostr-zap@0.3.0"
+          src="https://cdn.jsdelivr.net/npm/nostr-zap@0.4.0"
         ></script>
         <NextScript />
       </body>
