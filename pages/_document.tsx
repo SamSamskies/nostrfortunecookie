@@ -9,7 +9,10 @@ export default function Document() {
       <body>
         <Main />
         <footer>
-          <a href="https://github.com/SamSamskies" target="_blank">
+          <a
+            href="https://github.com/SamSamskies/nostrfortunecookie"
+            target="_blank"
+          >
             <Image
               src="/github-mark.png"
               width={32}
@@ -18,7 +21,6 @@ export default function Document() {
             />
           </a>
           <p
-            id="nostr-zap-target"
             data-npub="npub1f948ng6s3spk9wv990tuyh4dl0uujt6jq9uduanzt3yy653e6f6s77uvzg"
             title="Click to zap me :)"
           >
